@@ -1,0 +1,60 @@
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: #EAD8C0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 100px;
+}
+
+/* MENU */
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #5a4634;
+    font-weight: 300;
+    transition: all 0.3s ease;
+    padding: 8px 16px;
+    border-radius: 8px;
+
+}
+
+.nav-links a:hover {
+    color: #7c5214;
+}
+
+/* PESQUISA */
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input {
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+    border-radius: 20px 0 0 20px;
+}
+
+.search-container button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #a67c52;
+    color: white;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
