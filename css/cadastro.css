@@ -1,10 +1,15 @@
 /*FUNDO*/
-.fundo-auth {
+.fundo-auth-img {
     min-height: 100vh;
-    background: linear-gradient(135deg, #f2e2c8, #e6c79c);
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(../img/fundo-cafeteria-dibujado-mano_23-2150849907.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
 }
 
 
