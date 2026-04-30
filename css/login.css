@@ -1,0 +1,85 @@
+/*FUNDO*/
+.fundo-auth-img {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/fundo-cafeteria-dibujado-mano_23-2150849907.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+
+}
+
+
+
+/*DUAS COLUNAS*/ 
+.log-container {
+    width: 950px;
+    height: 560px;
+    display: flex;
+    border-radius: 28px;
+    overflow: hidden;
+    box-shadow: 30px 20px 200px rgba(0, 0, 0, 0.25);
+}
+
+/*LADO ESQUERDO*/
+.log-card-imagem {
+    width: 450px;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.log.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.log-card {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 35px;
+
+    color: #f2e2c8;
+    background: #212121;
+    background: linear-gradient(353deg, rgba(33, 33, 33, 1) 0%, rgb(73, 73, 73) 100%);
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.log-form {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.group-input {
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 6px;
+    border-style: none;
+}
+.botao-primario {
+    height: 35px;
+    border-radius: 6px;
+    border-style: none;
+    margin-top: 25px;
+}
+.dont-have {
+    width: 105px;
+    height: 30px;
+    margin-top: 15px;
+    color: #f2e2c8;
+}

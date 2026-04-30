@@ -12,31 +12,33 @@
   <div class="cad-container">
 
     <!-- LADO ESQUERDO (IMAGEM) -->
-    <div class="cad-imagem"></div>
+    <div class="cad-card-imagem">
+      <img src="../img/caféLuxo.jpg" alt="login-photo" class="cad img">
+    </div>
 
     <!-- LADO DIREITO (SEU FORMULÁRIO) -->
     <div class="cad-card">
 
-      <h2 class="cad-title">Cadastro</h2>
+      <h2 class="cad-title" style="font-family: 'Courier New', Courier, monospace;">Cadastro</h2>
 
       <form class="cad-form">
 
-        <div class="grupo-input">
+        <div class="group-input">
           <label for="nome">Nome</label>
           <input type="text" id="nome" placeholder="Seu nome completo" required>
         </div>
 
-        <div class="grupo-input">
+        <div class="group-input">
           <label for="email">Email</label>
           <input type="email" id="email" placeholder="seu@gmail.com" required>
         </div>
 
-        <div class="grupo-input">
+        <div class="group-input">
           <label for="senha">Senha</label>
           <input type="password" id="senha" placeholder="********" required>
         </div>
 
-        <div class="grupo-input">
+        <div class="group-input">
           <label for="confirmar-senha">Confirmar senha</label>
           <input type="password" id="confirmar-senha" placeholder="********" required>
         </div>
@@ -45,10 +47,11 @@
           Cadastrar
         </button>
 
-        <p class="log-link">
-          Já tem conta?
-          <a href="login.html">Entrar</a>
-        </p>
+        <a href="login.html" class="alredy-have">
+          <p class="log-link">
+            Já tem conta?
+          </p>
+        </a>
 
       </form>
     </div>

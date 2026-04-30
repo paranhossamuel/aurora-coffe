@@ -1,39 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="global.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="../css/login.css">
 </head>
-<body>
-    <div class="centralizar-tela">
-        <div class="caixa" style="width: 320px;">
-            <h2 style="text-align: center;">login</h2>
-            <form>
-                <div class="grupo-input">
-                    <label for="nome">Nome</label>
-                    <input type="nome" id="nome" placeholder="Digite seu nome" required><br>
-                </div>
 
-                <div class="grupo-input">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="Digite um email" required><br>
-                </div>
+<body class="fundo-auth-img">
 
-                <div class="grupo-input">
-                    <label for="senha">Senha</label>
-                    <input type="senha" id="senha" placeholder="Digite uma senha" required>
-                </div>
+  <div class="log-container">
 
-                <button type="submit" class="botao-primario" style="width: 100%;">
-                    Entrar
-                </button>
-                <button type="submit" class="botao-secundario" style="width: 100%;">
-                    Criar Conta
-                </button>
-            </form>
-        </div>
+    <!-- LADO ESQUERDO (IMAGEM) -->
+    <div class="log-card-imagem">
+      <img src="../img/caféLuxo.jpg" alt="login-photo" class="log img">
     </div>
+
+    <!-- LADO DIREITO (SEU FORMULÁRIO) -->
+    <div class="log-card">
+
+      <h2 class="log-title" style="font-family: 'Courier New', Courier, monospace;">Login</h2>
+
+      <form class="log-form">
+
+        <div class="group-input">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" placeholder="Seu nome completo" required>
+        </div>
+
+        <div class="group-input">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="seu@gmail.com" required>
+        </div>
+
+        <div class="group-input">
+          <label for="senha">Senha</label>
+          <input type="password" id="senha" placeholder="********" required>
+        </div>
+
+
+        <button type="submit" class="botao-primario">
+          Entrar
+        </button>
+
+        <a href="cadastro.html" class="dont-have">
+          <p class="cad-link">
+            Não tem uma conta ?
+          </p>
+        </a>
+
+      </form>
+    </div>
+
+  </div>
+
 </body>
 </html>
