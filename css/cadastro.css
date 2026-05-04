@@ -63,21 +63,35 @@
     display: flex;
     flex-direction: column;
 }
-input{
+
+input  {
     width: 250px;
     height: 30px;
     border-radius: 6px;
     border-style: none;
+    outline: none;
 }
+
 .botao-primario {
+    display: block;
     height: 35px;
     border-radius: 6px;
-    border-style: none;
-    margin-top: 25px;
+    border: 2px solid #9c6c25;
+    background: transparent;
+    color: #744f17;
+    margin-top: 25px auto 0;
+    cursor: pointer;
+    transition: 0.3s;
 }
 .alredy-have {
     width: 105px;
     height: 30px;
     margin-top: 15px;
     color: #f2e2c8;
+}
+
+.botao-primario:hover {
+    background: #644515;;
+    color: black;
+    box-shadow: 0 0 20px #463010;
 }
