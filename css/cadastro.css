@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../img/fundo-cafeteria-dibujado-mano_23-2150849907.avif);
+    background-image: url(../img/fundoIsolado.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -72,7 +72,7 @@ input  {
     outline: none;
 }
 
-.botao-primario {
+.btn {
     display: block;
     height: 35px;
     border-radius: 6px;
@@ -82,15 +82,18 @@ input  {
     margin-top: 25px auto 0;
     cursor: pointer;
     transition: 0.3s;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
 }
 .alredy-have {
-    width: 105px;
+    width: auto;
     height: 30px;
     margin-top: 15px;
     color: #f2e2c8;
 }
 
-.botao-primario:hover {
+.btn:hover {
     background: #644515;;
     color: black;
     box-shadow: 0 0 20px #463010;
