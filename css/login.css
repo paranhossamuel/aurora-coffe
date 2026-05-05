@@ -23,6 +23,7 @@
     border-radius: 28px;
     overflow: hidden;
     box-shadow: 30px 20px 200px rgba(0, 0, 0, 0.25);
+    position: relative;
 }
 
 /*LADO ESQUERDO*/
@@ -41,6 +42,7 @@
     object-position: center;
 }
 
+/*LADO DIREITO*/
 .log-card {
     width: 500px;
     display: flex;
