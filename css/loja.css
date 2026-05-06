@@ -146,21 +146,21 @@ body.background {
 }
 
 footer {
-    background-color: #472a0b;
+    background-color: #3d2408;
     color: white;
-    text-align: center;
+    
     padding: 20px;
     position: relative;
     bottom: 0;
     width: 100%;
     display: flex;
-    justify-content: right;
-    align-items: center;
+    
+    
 }
 
 
-
-.logo-footer {
-    width: 50px;
-    height: auto;
+.logo-footer{
+    height: 50px;
+    width: auto;
+    align-items: left;
 }
