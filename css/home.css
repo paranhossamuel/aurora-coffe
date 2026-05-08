@@ -25,6 +25,9 @@ body.background {
 }
 
 
+/*CARROSSEL*/
+
+
 
 /* CONTEÚDO */
 .container {
@@ -63,10 +66,55 @@ body.background {
     transform: translateY(-5px);
 }
 
-.card-image {
+.card-historia {
     width: 100%;
     height: 180px;
-    background-image: url(../img/caféLuxo.jpg);
+    background-image: url(../img/histCafe.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-tipos {
+    width: 100%;
+    height: 180px;
+    background-image: url(../img/tipCafe.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-metodos {
+    width: 100%;
+    height: 180px;
+    background-image: url(../img/modPreparo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-especiais {
+    width: 100%;
+    height: 180px;
+    background-image: url(../img/cafEspceciais.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-sabores {
+    width: 100%;
+    height: 180px;
+    background-image: url(../img/novCafes.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-lançamentos {
+    width: 100%;
+    height: 180px;
+    background-image: url(../img/lançamentos.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

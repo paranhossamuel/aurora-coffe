@@ -76,11 +76,17 @@ body.background {
     padding-left: 10px;
 }
 
-.produtos2 {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 25px;
+
+.content-section {
+    margin-bottom: 50px;
 }
+
+.content-section h2 {
+    margin-bottom: 20px;
+    border-left: 5px solid #9e7317;
+    padding-left: 10px;
+}
+
 
 .title2 {
     margin-bottom: 20px;
@@ -88,6 +94,19 @@ body.background {
     padding-left: 10px;
 }
 
+.card-grid1 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    flex-wrap: wrap;
+}
+
+.card-grid2 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    flex-wrap: wrap;
+}
 
 /* CARD PRODUTO */
 .card {
@@ -151,7 +170,7 @@ footer {
     color: white;
     
     
-    padding: 60px 0;
+    padding: 40px 0;
     position: relative;
     bottom: 0;
     width: 100%;
