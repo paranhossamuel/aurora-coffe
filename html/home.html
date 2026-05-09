@@ -1,64 +1,151 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aurora Coffe</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lora:wght@400;500;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/home.css">
 </head>
 
 <body class="background">
 
-<header class="navbar">
+    <header class="navbar">
 
-    <div class="logo">
-        <a href="#">
-            <img src="../img/logo.png" alt="logo" class="logo-img">
-        </a>
-    </div>
-
-    <nav class="menu">
-        <ul class="nav-links">
-            <li><a href="#"  class="active">Início</a></li>
-            <li><a href="#">História</a></li>
-            <li><a href="#">Tipos de café</a></li>
-            <li><a href="#">Preparo</a></li>
-            <li><a href="#">Curiosidades</a></li>
-            <li><a href="../html/loja.html">Loja</a></li>
-        </ul>
-    </nav>
-
-    <div class="search-container">
-        <input type="text" placeholder="Pesquisar...">
-        <button>Buscar</button>
-    </div>
-
-</header>
-
-<main class="container">
-
-    <section class="content-section">
-        <h2>Destaques</h2> <!--Observação esta fora da div da loja-->
-        <div class="card-grid">
-            <div class="card"><div class="card-historia"></div><h3>História do café</h3></div>
-            <div class="card"><div class="card-tipos"></div><h3>Tipos de café</h3></div>
-            <div class="card"><div class="card-metodos"></div><h3>Métodos de preparo</h3></div>
+        <div class="logo">
+            <a href="#">
+                <img src="../img/logo.png" alt="logo" class="logo-img">
+            </a>
         </div>
-    </section>
 
-    <section class="content-section">
-        <h2>Novidades</h2>
-        <div class="card-grid">
-            <div class="card"><div class="card-especiais"></div><h3>Cafés especiais</h3></div>
-            <div class="card"><div class="card-sabores"></div><h3>Novos sabores</h3></div>
-            <div class="card"><div class="card-lançamentos"></div><h3>Lançamentos</h3></div>
+        <nav class="menu">
+            <ul class="nav-links">
+                <li><a href="#" class="active">Início</a></li>
+                <li><a href="#">História</a></li>
+                <li><a href="#">Tipos de café</a></li>
+                <li><a href="#">Preparo</a></li>
+                <li><a href="#">Curiosidades</a></li>
+                <li><a href="../html/loja.html">Loja</a></li>
+            </ul>
+        </nav>
+
+        <div class="search-container">
+            <input type="text" placeholder="Pesquisar...">
+            <button>Buscar</button>
         </div>
-    </section>
 
-</main>
+    </header>
+
+
+    <main class="container">
+
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide">
+                    <img src="../img/carrossel1.png" alt="Slide 1">
+                </div>
+        
+                <div class="slide">
+                    <img src="../img/carrossel2.png" alt="Slide 2">
+                </div>
+        
+                <div class="slide">
+                    <img src="../img/carrossel3.png" alt="Slide 3">
+                </div>
+        
+            </div>
+        </div>
+
+            <section class="content-section">
+                <h2 class="title1">Destaques</h2>
+
+                <div class="card-grid">
+
+                    <div class="card">
+                        <img src="../img/histCafe.png" alt="História do café">
+
+                        <p class="title">História do café</p>
+
+                        <p class="card-sub">
+                            Conheça a jornada do grão que <br> conquistou o mundo.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="../img/tipCafe.png" alt="Tipos de café">
+
+                        <p class="title">Tipos de café</p>
+
+                        <p class="card-sub">
+                            Descubra os principais tipos <br> e suas características.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="../img/modPreparo.png" alt="Métodos de preparo">
+
+                        <p class="title">Métodos de preparo</p>
+
+                        <p class="card-sub">
+                            Aprenda diferentes formas de <br> extrair o melhor sabor.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2 class="title2">Novidades</h2>
+
+                <div class="card-grid">
+
+                    <div class="card">
+                        <img src="../img/cafEspceciais.png" alt="Café Especial">
+
+                        <p class="title">Café Especial</p>
+
+                        <p class="card-sub">
+                            Notas de chocolate e caramelo
+                        </p>
+
+                        <p class="card-price">R$ 69,90</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="../img/novCafes.png" alt="Cold Brew">
+
+                        <p class="title">Cold Brew</p>
+
+                        <p class="card-sub">
+                            Refrescante e encorpado
+                        </p>
+
+                        <p class="card-price">R$ 59,90</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="../img/lançamentos.png" alt="Grãos Selecionados">
+
+                        <p class="title">Grãos Selecionados</p>
+
+                        <p class="card-sub">
+                            100% Arábica
+                        </p>
+
+                        <p class="card-price">R$ 64,90</p>
+                    </div>
+
+                </div>
+        </div>
+        </section>
+
+    </main>
 
 </body>
+
 </html>
