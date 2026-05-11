@@ -18,7 +18,6 @@ body.background {
 
 .banner {
     width: 100%;
-    max-width: 1200px;
     height: 360px;
     background-image: url(../img/banner.png);
 
@@ -55,7 +54,6 @@ body.background {
 
 /* CONTAINER */
 .container {
-    max-width: 1200px;
     margin: 40px auto;
     padding: 0 20px;
 }

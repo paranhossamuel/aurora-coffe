@@ -27,7 +27,6 @@ body.background {
 
 /*CARROSSEL*/
 .container {
-    max-width: 1200px;
     margin: 0px auto;
     padding: 0;
 }
@@ -36,8 +35,8 @@ body.background {
 .slider-container {
     margin-bottom: 40px;
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto 40px;
+    height: 580px;
+    margin: 0 0 40px;
     position: relative;
     overflow: hidden;
 }
@@ -79,6 +78,7 @@ body.background {
 /* CONTEÚDO */
 .content-section {
     margin-bottom: 50px;
+    padding: 0 120px;
 }
 
 .content-section h2 {
